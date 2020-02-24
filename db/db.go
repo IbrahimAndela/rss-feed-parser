@@ -153,3 +153,4 @@ func GetRecordByID(database string, table string, id string) structs.RssParent{
 	res.One(&result)
 	return result
 }
+
